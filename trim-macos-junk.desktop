@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=TrimMacJunk
+Icon=edit-delete
+X-KDE-Protocols=file
+X-KDE-StartupNotify=false
+
+[Desktop Action TrimMacJunk]
+Name=Trim macOS ._ Junk Files
+Icon=edit-delete
+Exec=/home/f/.local/bin/trim-macos-junk.sh %F
