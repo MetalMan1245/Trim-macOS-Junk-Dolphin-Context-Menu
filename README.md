@@ -12,5 +12,8 @@ Removes leftover `._` AppleDouble files created by macOS on non-HFS volumes.
 4. Make the script executable:
    ```bash
    chmod +x "~/.local/bin/trim-macos-junk.sh"
+5. Right click a directory, and "Trim macOS ._ Junk Files" should now be an option.
+
+Your support is appreciated: patreon.com/c/metalman1245
 
 v1.0 Malachi Ayers
