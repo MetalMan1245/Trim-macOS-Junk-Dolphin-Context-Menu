@@ -8,6 +8,9 @@ Removes leftover `._` AppleDouble files created by macOS on non-HFS volumes.
 2. Copy `trim-macos-junk.desktop` to `~/.local/share/kio/servicemenus/`
 3. Make the desktop file executable:
    ```bash
-   chmod +x ~/.local/share/kio/servicemenus/trim-macos-junk.desktop
+   chmod +x "~/.local/share/kio/servicemenus/trim-macos-junk.desktop"
+4. Make the script executable:
+   ```bash
+   chmod +x "~/.local/bin/trim-macos-junk.sh"
 
 v1.0 Malachi Ayers
