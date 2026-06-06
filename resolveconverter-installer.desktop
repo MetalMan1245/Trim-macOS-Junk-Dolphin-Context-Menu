@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Trim macOS Junk Installer
+Comment=Install, update, or uninstall macOS-Trim
+Icon=system-software-install
+Terminal=true
+Exec=bash -c 'mkdir -p "$HOME/.local/bin"; curl -fsSL https://raw.githubusercontent.com/MetalMan1245/Trim-macOS-Junk-Dolphin-Context-Menu/main/macOS-trim-install_remote.sh -o "$HOME/.local/bin/macOS-trim-install_remote.sh" && chmod +x "$HOME/.local/bin/macOS-trim-install_remote.sh" && "$HOME/.local/bin/macOS-trim-install_remote.sh"; echo; read -p "Press Enter to close..."'
+Categories=Utility;
