@@ -6,6 +6,9 @@ Removes leftover `._` AppleDouble files created by macOS on non-HFS volumes.
 
 The easiest method is to navigate to Dolphin's Context Menu Settings, Download New Services, and search Trim macOS Junk, then install directly.  https://www.pling.com/p/2349950
 
+You can also use the easy installer in the releases page.
+
+For a manual install:
 1. Copy `trim-macos-junk.sh` to `~/.local/bin/`
 2. Copy `trim-macos-junk.desktop` to `~/.local/share/kio/servicemenus/`
 3. Make the desktop file executable:
